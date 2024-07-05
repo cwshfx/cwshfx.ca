@@ -1,0 +1,48 @@
+body {
+    width: 100%;
+    margin:0;
+    padding:0;
+    background-color: #0d1117;
+    color:white;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-family: Helvetica;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+    font-size: large;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    margin-top:6vh;
+    margin-bottom:0px;
+    font-size: 65px;
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 254, 251);
+}
+
+main {
+    padding-left: min(300px, 30%);
+    padding-right: min(300px, 30%);
+}
+
+@media only screen and (max-width: 320px) { /* mobile screen */
+    body {
+      background-color: lightblue;
+    }
+}
+
+@media only screen and (max-width: 768px) { /* tablet view */
+
+}
