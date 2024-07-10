@@ -57,90 +57,6 @@ main p, a {
     margin-bottom: 10vh;
 }
 
-.payment-options-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 1rem;
-    font-family: "Montserrat", sans-serif;
-    padding: 1rem;
-}
-
-.payment-option-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    max-width: 250px;
-    min-width: 200px;
-    border: 1px solid black;
-    background-color: rgb(207, 207, 207);
-    border-radius: 5px;
-    margin: 1rem;
-    box-sizing: border-box;
-    padding: 2rem;
-    height: 40vh;
-    color: black;
-    box-shadow: 5px 5px 5px black;
-    transition: 1s;
-}
-
-.payment-option-box:hover {
-    transform: scale(101%);
-}
-
-.product-title {
-    margin-top: 0.5rem;
-    font-size: 1.2rem;
-    font-weight: 800;
-    text-align: center;
-}
-
-.product-description {
-    width: 100%;
-    margin-top: 0.5rem;
-    font-size: 0.9rem;
-    color: rgb(35, 35, 35);
-    font-weight: 400;
-    text-align: center;
-}
-
-.product-features {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: start;
-    margin: 1rem 0;
-    font-size: 1rem;
-    padding-left: 5%;
-}
-
-.checkmark {
-    color: green;
-}
-
-.price {
-    background-color: rgb(41, 41, 180);
-    border-radius: 1rem;
-    padding: 5px;
-    color: white;
-}
-
-.price-info {
-    font-size: 0.9rem;
-    color: rgb(35, 35, 35);
-    padding: 5px;
-}
-
-.product-price {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-
 h1 {
     font-family: "Montserrat", sans-serif;
     text-decoration: underline;
@@ -214,6 +130,53 @@ h1 {
     }
 }
 
+.payment-options-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+    font-family: "Montserrat", sans-serif;
+    padding: 1rem;
+}
+
+.pricing-box {
+    color: black;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+}
+
+.pricing-title {
+    font-weight: bold;
+}
+
+.pricing-per {
+    color: rgb(102, 102, 102);
+    font-size: 0.9rem;
+}
+
+.pricing-cost {
+    font-size: 1.2rem;
+}
+
+.pricing-features {
+    color: rgb(102, 102, 102);
+    font-weight:600;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+.feature {
+    display: block;
+}
 
 
 
