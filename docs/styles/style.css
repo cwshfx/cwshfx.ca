@@ -24,6 +24,19 @@ nav a {
     font-size: large;
 }
 
+.nav-pages {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-family: Helvetica;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
 h1 {
     font-family: "Montserrat", sans-serif;
     margin-top:15vh;
@@ -54,6 +67,7 @@ button {
     background-color:white;
     border-radius:10px;
     border: 3px solid rgb(0, 254, 251);
+    box-shadow: 5px 10px 8px black;
 }
 
 #who-title {
@@ -118,6 +132,11 @@ button {
 
     #design-img {
         width:85%;
+    }
+
+    nav {
+        display:block;
+        flex-direction: column;
     }
 }
 
